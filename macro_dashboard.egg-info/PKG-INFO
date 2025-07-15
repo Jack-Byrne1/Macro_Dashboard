@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: macro_dashboard
+Version: 0.0.1
+Summary: Modular macro dashboard for economic + market data
+Requires-Dist: streamlit
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: fredapi
+Requires-Dist: yfinance

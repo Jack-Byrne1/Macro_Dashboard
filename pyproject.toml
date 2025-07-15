@@ -1,0 +1,18 @@
+[project]
+name = "macro_dashboard"
+version = "0.0.1"
+description = "Modular macro dashboard for economic + market data"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "plotly",
+    "fredapi",
+    "yfinance"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src"]
